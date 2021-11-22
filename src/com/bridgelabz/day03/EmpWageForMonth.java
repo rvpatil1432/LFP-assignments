@@ -17,7 +17,8 @@ public class EmpWageForMonth
 		int numOfWorkingDays = sc.nextInt();
 		randomDigit = (int) (Math.floor(Math.random()*10)%3); 
 		System.out.println(randomDigit);
-		for(int day=0;day<numOfWorkingDays;day++) {
+		for(int day=0;day<numOfWorkingDays;day++) 
+		{
 			switch(randomDigit) 
 			{
 			case 0:
